@@ -4,16 +4,24 @@
   "description": "É um bot de logs no discord",
   "main": "index.js",
   "scripts": {
-    "test": "node dist/index.js"
+    "test": "node dist/index.js",
+    "start": "ts-node-dev --respawn --transpile-only --ignore node_modules src/index.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gustavokoz/BotPRF.git"
+  },
+  "devDependencies": {
+    "@types/node-geocoder": "^4.2.0",
+    "ts-node-dev": "^2.0.0"
   },
   "author": "eu@gustavokoz.tk",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gustavokoz/BotPRF/issues"
   },
-  "homepage": "https://github.com/gustavokoz/BotPRF#readme"
+  "homepage": "https://github.com/gustavokoz/BotPRF#readme",
+  "dependencies": {
+    "discord.js": "^14.9.0"
+  }
 }
