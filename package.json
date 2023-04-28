@@ -1,0 +1,19 @@
+{
+  "name": "prfbot",
+  "version": "0.0.1",
+  "description": "É um bot de logs no discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavokoz/BotPRF.git"
+  },
+  "author": "eu@gustavokoz.tk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavokoz/BotPRF/issues"
+  },
+  "homepage": "https://github.com/gustavokoz/BotPRF#readme"
+}
